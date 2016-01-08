@@ -1,0 +1,58 @@
+//
+//  PrefixHeader.pch
+//  //TheGoodNight
+
+//  Created by imac on 15/10/22.
+//  Copyright (c) 2015年 imac. All rights reserved.
+//
+
+#ifndef TheGoodNight_PrefixHeader_pch
+#define TheGoodNight_PrefixHeader_pch
+//(使用新浪的sdk，必须在PCH导入UIKIt和Foundation框架)
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//不同页面的跳转
+#import "CenterViewController.h"
+
+//登录首页
+#import "SinaWeibo.h"
+#import "AppDelegate.h"
+
+//屏幕适配
+#define KScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+//保存动画相关的Key
+#define KDrawLeftType @"KDrawLeftType" //左动画效果
+#define KDrawRightType @"KDrawRightType"//右动画效果
+
+//订制当前屏幕的物理尺寸
+#define KDrawAnimationType @"KDrawAnimationType"
+//依赖控制算坐标
+#import "UIViewExt.h"
+
+//认证需要的配置参数
+#define KAppkey @"3270680855"
+#define KRedirectURl @"http://www.baidu.com"
+#define KAppSecretKey                            @"9d830003e07a518399c2978bda672669"
+//设置自定义文本高度
+#import "WXLabel.h"
+
+//设置Button的图片
+#import "UIButton+WebCache.h"
+#import "UIImageView+WebCache.h"
+
+//网络小菊花加载
+#import "BaseViewController.h"
+#import "MBProgressHUD.h"
+
+//网络加载刷新
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+
+
+//shareSDK
+#define Appkey  c4ff74b47080
+#define AppSecret  8e3987fbae95813c245efd64b7ef1f4c
+
+#endif

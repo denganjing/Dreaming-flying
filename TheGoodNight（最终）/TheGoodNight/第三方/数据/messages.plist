@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>content</key>
+		<string>hi，我是小Q助理，任何的问题欢迎私聊我！</string>
+		<key>icon</key>
+		<string>icon02.jpg</string>
+		<key>time</key>
+		<string>昨天 20:05</string>
+		<key>self</key>
+		<false/>
+	</dict>
+</array>
+</plist>
